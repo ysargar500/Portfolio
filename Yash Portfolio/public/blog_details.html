@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog By Yash Sargar</title>
+    <!---Remixicons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!---Css---->
+    <link rel="stylesheet" href="Doc/CSS/Style.css">
+    <link rel="stylesheet" href="Doc/CSS/skins/color-1.css">
+
+     <!---Css skins-->
+     <link
+         rel="stylesheet" 
+         href="Doc/CSS/skins/color-1.css"
+         class="alternate-style"
+         title="color-1"
+         disabled/>
+     <link 
+        rel="stylesheet"
+        href="Doc/CSS/skins/color-2.css" 
+        class="alternate-style"
+         title="color-2"
+        disabled/>
+</head>
+<body>
+    <!---Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!----Blog Details---->
+    <div class="blog__header"></div>
+    <section class="container">
+        <div class="blog__details">
+            <a href="index.html" class="back__to-home text-xs">
+                <i class="ri-arrow-left-line"></i>
+                Back
+            </a>
+
+            <h3 class="post__details-title">5 Voices that Lead to Dangerous Disciplemaking</h3>
+            <p class="post__details-date text-sm">October 22, 2022</p>
+            <p class="post__details text-lg">
+                'Blog' and 'blogging' are now loosely used for content creation and sharing on social media, especially when the content is long-form and one creates and shares content on regular basis. So, one could be maintaining a blog on Facebook or blogging on Instagram. Blogging is writing about what you like. In other words, writing about what you know and providing valuable information to people searching for it.
+            </p>
+
+            <p class="post__details text-lg">
+                Another early blog was Wearable Wireless Webcam, an online shared diary of a person's personal life combining text, digital video, and digital pictures transmitted live from a wearable computer and EyeTap device to a web site in 1994. This practice of semi-automated blogging with live video together with text was referred to as sousveillance, and such journals were also used as evidence in legal matters. Some early bloggers, such as The Misanthropic Bitch, who began in 1997, actually referred to their online presence as a zine, before the term blog entered common usage.
+            </p>
+
+            <figure>
+                <img src="Doc/img/post-detail.jpg" alt="">
+                <figcaption class="text-sm">
+                    This is how i organized my html css and files
+                    always
+                </figcaption>
+            </figure>
+
+            <p class="post__details text-lg">
+                Similarly, blogs were among the driving forces behind the "Rathergate" scandal. Television journalist Dan Rather presented documents on the CBS show 60 Minutes that conflicted with accepted accounts of President Bush's military service record. Bloggers declared the documents to be forgeries and presented evidence and arguments in support of that view. Consequently, CBS apologized for what it said were inadequate reporting techniques (see Little Green Footballs). The impact of these stories gave greater credibility to blogs as a medium of news dissemination.
+            </p>
+
+            <div class="post__social-share">
+                <span class="post__share text-lg">
+                    Share post:
+                </span>
+
+                <div class="post__social-links">
+                    <a href="" class="post__share-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+
+                    <a href="" class="post__share-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--COntact-->
+    <section class="contact section" id="contact">
+        <div class="contact__content container">
+            <h2 class="section__title">Get in touch_</h2>
+
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <dl class="contact__list">
+                        <dt>Mobile:</dt>
+                        <dd>+91-9975577290</dd>
+                        <dt>Email:</dt>
+                        <dd>ysargar500@gmail.com</dd>
+                    </dl>
+
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://www.linkedin.com/in/yash-sargar-30v05/" class="contact__social-link">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ysargar500" class="contact__social-link">Github</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact__form">
+                    <p class="contact__form-title">Just Write me a letter here__</p>
+
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input
+                                 type="text"
+                                 name="name"
+                                 placeholder="Your Name"
+                                 class="contact__input"
+                                 id="contact-name"
+                            />
+                        </div>
+
+                        <div class="contact__input-div">
+                            <input
+                                 type="email"
+                                 name="email"
+                                 placeholder="Your Email"
+                                 class="contact__input"
+                                 id="contact-email"
+                            />
+                        </div>
+
+                        <div class="contact__input-div">
+                            <textarea
+                                name="message"
+                                placeholder="Type the message here" 
+                                class="contact__input textarea"
+                                id="message" 
+                                cols="30" 
+                                rows="10"
+                            ></textarea>
+                        </div>
+
+                        <p class="contact__message text-sm" id="contact-message">
+                            Message
+                        </p>
+
+                        <button type="submit" class="button contact__button">
+                            SEND
+                        </button>
+
+                        <p class="footer__copy">
+                            &copy; 2023 Yash Sargar. All Rights Reserved
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Style Switcher-->
+        
+    <div class="style__switcher">
+        <div class="style__switcher-toggler">
+            <i class="ri-settings-4-fill"></i>
+        </div>
+
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        </div>
+
+    </div>
+
+    <!---Email Js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!---js-->
+    <script src="Doc/Js/common.js"></script>
+</body>
+</html>
